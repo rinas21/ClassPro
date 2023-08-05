@@ -1,37 +1,30 @@
 const footerTemplate = document.createElement("template");
 
 footerTemplate.innerHTML = `
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
   <style>
     footer {
-      position: relative;
-      background: #838383;
+      background: #333;
       color: #fff;
-      padding-top: 40px;
-      margin-top: 180px auto; /* Add margin-top to create space between footer and content */
-      max-height:280px;
-    }
-
-    .footer-content {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
+      padding: 40px 0;
       text-align: center;
     }
 
+    .footer-content {
+      padding: 0 20px;
+    }
+
     .footer-content h3 {
-      font-size: 2.1rem;
-      font-weight: 500;
-      text-transform: capitalize;
-      line-height: 3rem;
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px;
     }
 
     .footer-content p {
-      max-width: 500px;
-      margin: 10px auto;
-      line-height: 28px;
       font-size: 14px;
-      color: #cacdd2;
+      margin-bottom: 20px;
     }
 
     .socials {
@@ -39,7 +32,7 @@ footerTemplate.innerHTML = `
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 1rem 0 3rem 0;
+      margin-bottom: 30px;
     }
 
     .socials li {
@@ -49,123 +42,73 @@ footerTemplate.innerHTML = `
     .socials a {
       text-decoration: none;
       color: #fff;
-      border: 1.1px solid white;
-      padding: 5px;
+      border: 2px solid #fff;
+      padding: 8px;
       border-radius: 50%;
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     .socials a i {
-      font-size: 1.1rem;
+      font-size: 20px;
       width: 20px;
-      transition: color 0.4s ease;
     }
 
-    .socials a:hover i {
-      color: aqua;
-    }
-
-    .footer-bottom {
-      background: #838383;
-      padding: 20px;
-      padding-bottom: 40px;
-      text-align: center;
-    }
-
-    .footer-bottom p {
-      font-size: 14px;
-      word-spacing: 2px;
-      text-transform: capitalize;
-    }
-
-    .footer-bottom p a {
-      color: #44bae8;
-      font-size: 16px;
-      text-decoration: none;
-    }
-
-    .footer-bottom span {
-      text-transform: uppercase;
-      opacity: 0.4;
-      font-weight: 200;
+    .socials a:hover {
+      background-color: #fff;
+      color: #333;
     }
 
     .footer-menu {
-      float: right;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
     }
 
     .footer-menu ul {
       display: flex;
+      justify-content: center;
+      align-items: center; /* Align items vertically in the middle */
+      margin: 20px 0;
+      padding: 0;
+      list-style: none;
     }
 
     .footer-menu ul li {
-      padding-right: 10px;
-      display: block;
+      margin: 0 15px; /* Add space between menu items */
     }
 
     .footer-menu ul li a {
-      color: #cfd2d6;
+      color: #ccc;
       text-decoration: none;
+      transition: color 0.3s ease;
     }
 
     .footer-menu ul li a:hover {
-      color: #27bcda;
-    }
-
-    @media (max-width: 768px) {
-      .footer-content {
-        padding-bottom: 80px;
-      }
-
-      .socials {
-        margin-bottom: 2rem;
-      }
-
-      .footer-menu ul {
-        margin-top: 10px;
-        margin-bottom: 20px;
-      }
-
-      footer {
-        margin-top: 40px; /* Adjust margin-top as needed */
-        padding-bottom: 80px; /* Increase padding-bottom to create space at the bottom of the footer */
-      }
+      color: #fff;
     }
   </style>
   <footer>
     <div class="footer-content">
       <h3>ClassPro</h3>
       <p>
-        ClassPro is a platform that helps students to learn and improve their
-        skills.
+        ClassPro is a platform that helps students to learn and improve their skills.
       </p>
       <ul class="socials">
-        <li>
-          <a href="#"><i class="fa fa-facebook"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa fa-google-plus"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa fa-youtube"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa fa-linkedin-square"></i></a>
-        </li>
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
       </ul>
-    </div>
-    <div class="footer-bottom">
-      <p>copyright &copy; <a href="#">ClassPro</a></p>
-      <div class="footer-menu">
-        <ul class="f-menu">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Blog</a></li>
-        </ul>
-      </div>
+      <ul class="footer-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
     </div>
   </footer>
 `;
