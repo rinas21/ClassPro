@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>ClassPro - Home</title>
+</head>
+
+<body>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: cursive;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .cpc-navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #9896f1;
+      color: #fff;
+    }
+
+    .cpc-nav-links a {
+      color: #fff;
+    }
+
+    .cpc-logo {
+      font-size: 32px;
+    }
+
+    .cpc-menu {
+      display: flex;
+      gap: 1em;
+      font-size: 18px;
+    }
+
+    .cpc-menu li {
+      padding: 5px 14px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cpc-menu li:hover {
+      background-color: #4ca9a9;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    .cpc-three-line {
+      display: none;
+      font-size: 24px;
+      user-select: none;
+    }
+
+    @media (max-width: 768px) {
+      .cpc-menu {
+        display: none;
+        position: absolute;
+        background-color: #9896f1;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+      }
+
+      .cpc-menu li:hover {
+        display: inline-block;
+        background-color: #4ca9a9;
+        transition: background-color 0.3s ease;
+      }
+
+      .cpc-menu li+cpc-li {
+        margin-top: 12px;
+      }
+
+      input[type="checkbox"]:checked~.cpc-menu {
+        display: block;
+      }
+
+      .cpc-three-line {
+        display: block;
+      }
+
+      .cpc-dropdown {
+        left: 50%;
+        top: 30px;
+        transform: translateX(-50%);
+      }
+
+      .cpc-dropdown li:hover {
+        background-color: #8ef6e4;
+      }
+    }
+  </style>
+  <header>
+    <nav class="cpc-navbar">
+      <div class="cpc-logo">ClassPro</div>
+      <ul class="cpc-nav-links">
+        <input type="checkbox" id="cpc-checkbox_toggle">
+        <label for="cpc-checkbox_toggle" class="cpc-three-line">&#9776;</label>
+        <div class="cpc-menu">
+          <li><a href="../users/index.html">Home</a></li>
+          <li><a href="/users/pages/aboutus/about.html">About Us</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <section class="intro-section">
+    <div class="container">
+      <div class="card">
+        <h1>Welcome to ClassPro</h1>
+        <p>
+          ClassPro is an innovative web application that aims to enhance
+          parent-teacher collaboration and streamline communication. With
+          ClassPro, parents can easily stay updated on their child's academic
+          progress, attendance, and school activities.
+        </p>
+        <a href="login/login.html" class="login-btn">Login</a>
+      </div>
+      <div class="image-slideshow">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img src="images/img-1.png" style="width:100%">
+            <div class="text">Caption Text</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/img-2.png" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/img-3.png" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <div class="cpi-container">
+    <div class="cpi-card" id="instructors-card">
+      <h2 id="instructors-title">Expert Instructors</h2>
+      <p id="instructors-desc">Our courses are taught by experienced instructors with a proven track record in their
+        fields.</p>
+    </div>
+
+    <div class="cpi-card" id="learning-card">
+      <h2 id="learning-title">Interactive Learning</h2>
+      <p id="learning-desc">We provide engaging and interactive learning experiences to make your education enjoyable.
+      </p>
+    </div>
+
+    <div class="cpi-card" id="curriculum-card">
+      <h2 id="curriculum-title">Advanced Curriculum</h2>
+      <p id="curriculum-desc">Stay ahead with our cutting-edge curriculum designed to meet the demands of the industry.
+      </p>
+    </div>
+
+    <div class="cpi-card" id="schedule-card">
+      <h2 id="schedule-title">Flexible <br>Schedule</h2>
+      <p id="schedule-desc">Learn at your own pace with our flexible scheduling options to accommodate your lifestyle.
+      </p>
+    </div>
+  </div>
+
+
+  <style>
+    .cpc-footer {
+      background: #333;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+
+    .cpc-footer-content {
+      padding: 0 20px;
+    }
+
+    .cpc-footer-content h3 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .cpc-footer-content p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .cpc-socials {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .cpc-socials li {
+      margin: 0 10px;
+    }
+
+    .cpc-socials a {
+      text-decoration: none;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 8px;
+      border-radius: 50%;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .cpc-socials a i {
+      font-size: 20px;
+      width: 20px;
+    }
+
+    .cpc-socials a:hover {
+      background-color: #fff;
+      color: #333;
+    }
+
+    .cpc-footer-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    .cpc-footer-menu ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .cpc-footer-menu ul li {
+      margin: 15px;
+    }
+
+    .cpc-footer-menu ul li a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .cpc-footer-menu ul li a:hover {
+      color: #fff;
+    }
+
+    .cpc-footer-menu-item {
+      margin: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+  <footer class="cpc-footer">
+    <div class="cpc-footer-content">
+      <h3>ClassPro</h3>
+      <p>
+        ClassPro is a platform that helps students to learn and improve their skills.
+      </p>
+      <ul class="cpc-socials">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+      <ul class="cpc-footer-menu">
+        <li><a href="#" class="cpc-footer-menu-item">Home</a></li>
+        <li><a href="#" class="cpc-footer-menu-item">About</a></li>
+        <li><a href="#" class="cpc-footer-menu-item">Contact</a></li>
+        <li><a href="#" class="cpc-footer-menu-item">Blog</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>

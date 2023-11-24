@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: cursive;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .head-navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #9896f1;
+      color: #fff;
+    }
+
+    .head-nav-links a {
+      color: #fff;
+    }
+
+    .head-logo {
+      font-size: 32px;
+    }
+
+    .head-menu {
+      display: flex;
+      gap: 1em;
+      font-size: 18px;
+    }
+
+    .head-menu li {
+      padding: 5px 14px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .head-menu li:hover {
+      background-color: #4ca9a9;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    .head-three-line {
+      display: none;
+      font-size: 24px;
+      user-select: none;
+    }
+
+    @media (max-width: 768px) {
+      .head-menu {
+        display: none;
+        position: absolute;
+        background-color: #9896f1;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+      }
+
+      .head-menu li:hover {
+        display: inline-block;
+        background-color: #4ca9a9;
+        transition: background-color 0.3s ease;
+      }
+
+      .head-menu li+li {
+        margin-top: 12px;
+      }
+
+      input[type="checkbox"]:checked~.head-menu {
+        display: block;
+      }
+
+      .head-three-line {
+        display: block;
+      }
+
+      .head-dropdown {
+        left: 50%;
+        top: 30px;
+        transform: translateX(-50%);
+      }
+
+      .head-dropdown li:hover {
+        background-color: #8ef6e4;
+      }
+    }
+    .cpc-page-content {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.cpc-page-content h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.cpc-page-content p {
+    color: #555;
+    font-size: 16px;
+}
+
+.cpc-page-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cpc-page-content li {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="head-navbar">
+      <div class="head-logo">ClassPro</div>
+      <ul class="head-nav-links">
+        <input type="checkbox" id="head-checkbox_toggle">
+        <label for="head-checkbox_toggle" class="head-three-line">&#9776;</label>
+        <div class="head-menu">
+          <li><a href="/" id="head-home-link">Home</a></li>
+          <li><a href="/classPro/pages/about.html" id="head-about-link">About Us</a></li>
+          <li><a href="/" id="head-contact-link">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+</body>
+
+  <div class="cpc-container">
+    <div class="cpc-card" id="cpc-courseCount">
+      <div class="cpc-card-content" style="background-color: #2980b9;"> <!-- Set initial color -->
+        <div class="cpc-card-title">Course Count</div>
+        <div class="cpc-count-container">Loading...</div>
+      </div>
+    </div>
+
+    <div class="cpc-card" id="cpc-studentCount">
+      <div class="cpc-card-content" style="background-color: #27ae60;"> <!-- Set initial color -->
+        <div class="cpc-card-title">Student Count</div>
+        <div class="cpc-count-container">Loading...</div>
+      </div>
+    </div>
+
+    <div class="cpc-card" id="cpc-assignmentCount">
+      <div class="cpc-card-content" style="background-color: #e74c3c;"> <!-- Set initial color -->
+        <div class="cpc-card-title">Assignment Count</div>
+        <div class="cpc-count-container">Loading...</div>
+      </div>
+    </div>
+
+    <div class="cpc-page-content">
+      <h2>Transform Your Teaching with ClassPro Analytics</h2>
+      <p>Gain insights, track student progress, and enhance your teaching with ClassPro Analytics.</p>
+      <p>Key Benefits:</p>
+      <ul>
+        <li>Monitor Student Performance</li>
+        <li>Evaluate Course Effectiveness</li>
+        <li>Identify Trends and Patterns</li>
+      </ul>
+      <p>Make informed decisions and create personalized learning experiences for your students.</p>
+    </div>
+
+
+    <div class="cpc-buttons">
+      <button onclick="navigateToPage('../teacher/control/course/test2')">Manage Courses</button>
+      <button onclick="navigateToPage('../teacher/control/Student/student_manage')">Manage Student</button>
+      <button onclick="navigateToPage('../teacher/control/assigment/manage_assignments')">Manage Assignment</button>
+      <button onclick="navigateToPage('../teacher/control/assignment')">Manage Marks</button>
+    </div>
+  </div>
+  <br>
+  <div id="chart-container">
+    <!-- Create a canvas element for the chart -->
+    <canvas id="myChart" width="150" height="75"></canvas>
+  </div>
+
+  <script>
+    // Function to fetch data from the PHP script
+    function fetchData() {
+      return fetch('connection.php')
+        .then(response => response.json())
+        .then(data => data)
+        .catch(error => console.error('Error:', error));
+    }
+
+    // Create the chart with initial data
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Students', 'Courses', 'Assignments'],
+        datasets: [{
+          label: 'Counts',
+          data: [0, 0, 0], // Initial data, will be updated later
+          backgroundColor: [
+            'rgba(255, 99, 132, 0.5)',
+            'rgba(54, 162, 235, 0.5)',
+            'rgba(255, 206, 86, 0.5)',
+          ],
+          borderColor: [
+            'rgba(255, 99, 132, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(255, 206, 86, 1)',
+          ],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        },
+        plugins: {
+          title: {
+            display: true,
+            text: '', // Add a title if needed
+            padding: {
+              top: 10,
+              bottom: 5
+            }
+          }
+        }
+      }
+    });
+
+    // Function to update the chart with data
+    function updateChart(data) {
+      myChart.data.datasets[0].data = [data.students, data.courses, data.assignments];
+      myChart.update(); // Update the chart
+    }
+
+    // Function to periodically update the chart
+    function autoUpdateChart() {
+      fetchData().then(data => updateChart(data));
+    }
+
+    // Fetch data and update the chart on page load
+    fetchData().then(data => updateChart(data));
+
+    // Set up interval to automatically update the chart (every 5 seconds in this example)
+    setInterval(autoUpdateChart, 5000);
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      fetchData();
+    });
+
+    function fetchData() {
+      fetch("getData.php")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          return response.json();
+        })
+        .then((data) => {
+          updateCount("cpc-courseCount", "Course Count: ", data.courseCount, "courses");
+          updateCount(
+            "cpc-studentCount",
+            "Student Count: ",
+            data.studentCount,
+            "students"
+          );
+          updateCount(
+            "cpc-assignmentCount",
+            "Assignment Count: ",
+            data.assignmentCount,
+            "assignments"
+          );
+        })
+        .catch((error) => console.error("Error fetching data: ", error));
+    }
+
+    function updateCount(elementId, label, count, page) {
+      const countContainer = document.getElementById(elementId);
+      const countElement = document.createElement("span");
+      countElement.className = "cpc-count";
+      countContainer.innerHTML = label;
+      countContainer.appendChild(countElement);
+
+      const currentCount = parseInt(countContainer.getAttribute("data-count")) || 0;
+      const increment = Math.ceil((count - currentCount) / 50); // Adjust the increment value as needed
+
+      let current = currentCount;
+
+      const intervalId = setInterval(() => {
+        countElement.innerText = current;
+        current += increment;
+
+        if (current >= count) {
+          clearInterval(intervalId);
+          countElement.innerText = count;
+          countContainer.setAttribute("data-count", count);
+          countContainer.style.backgroundColor = getRandomColor(); // Set a random color
+          countContainer.onclick = function () {
+            navigateToPage(page);
+          };
+        }
+      }, 80); // Adjust the interval duration as needed
+    }
+
+    function navigateToPage(page) {
+      window.location.href = page + ".html";
+    }
+
+    function getRandomColor() {
+      const letters = "0123456789ABCDEF";
+      let color = "#";
+      for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+
+    setInterval(fetchData, 5000); // Fetch data every 5 seconds (adjust as needed)
+  </script>
+  <div id="cpscChartContainer">
+    <canvas id="cpscCourseCountChart" width="300" height="150"></canvas>
+  </div>
+
+  <script>
+    // Fetch data from PHP endpoint
+    fetch('enrollment.php')  // Update the filename to enrollment.php
+      .then(response => response.json())
+      .then(data => {
+        // Extract student names and course counts
+        const studentNames = data.map(item => item.student_name);
+        const courseCounts = data.map(item => item.course_count);
+
+        // Generate random colors for each bar
+        const randomColor = () => `rgba(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, 0.2)`;
+        const barColors = Array.from({ length: studentNames.length }, () => randomColor());
+
+        // Create a bar chart
+        const ctx = document.getElementById('cpscCourseCountChart').getContext('2d');
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: studentNames,
+            datasets: [{
+              label: 'Course Count',
+              data: courseCounts,
+              backgroundColor: barColors,
+              borderColor: barColors.map(color => color.replace('0.2', '1')),
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              x: {
+                barPercentage: 0.5, // Adjust the width of the bars (0.5 means 50% of the available space)
+                categoryPercentage: 0.5 // Adjust the spacing between bars
+              },
+              y: {
+                beginAtZero: true,
+                stepSize: 1
+              }
+            },
+            responsive: true,
+            maintainAspectRatio: false, // Allow the chart to scale freely
+            layout: {
+              padding: {
+                left: 10,
+                right: 10,
+                top: 10,
+                bottom: 10
+              }
+            }
+          },
+        });
+      })
+      .catch(error => console.error('Error fetching data:', error));
+  </script>
+  <style>
+    #cpscChartContainer {
+      width: 800px;
+      margin: 0 auto;
+      /* Set left and right margin to auto */
+    }
+  </style>
+  <div class="cpc4">
+    <canvas id="courseChart" width="400" height="200"></canvas>
+  </div>
+  <script>
+    // Fetch data from PHP script
+    fetch('count.php')
+      .then(response => response.json())
+      .then(data => {
+        // Extract data for chart
+        const labels = data.map(item => item.course_name);
+        const avgMarks = data.map(item => item.avg_mark);
+
+        // Create bar chart
+        const ctx = document.getElementById('courseChart').getContext('2d');
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: 'Average Marks',
+              data: avgMarks,
+              backgroundColor: 'rgba(75, 192, 192, 0.2)',
+              borderColor: 'rgba(75, 192, 192, 1)',
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      })
+      .catch(error => console.error('Error:', error));
+  </script>
+  <style>
+    .cpc4 {
+      height: 700px;
+      width: 600px;
+      margin: 0 auto;
+    }
+  </style>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <style>
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+  
+    .footer-content {
+      padding: 0 20px;
+    }
+  
+    .footer-content h3 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+  
+    .footer-content p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  
+    .socials {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+  
+    .socials li {
+      margin: 0 10px;
+    }
+  
+    .socials a {
+      text-decoration: none;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 8px;
+      border-radius: 50%;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+  
+    .socials a i {
+      font-size: 20px;
+      width: 20px;
+    }
+  
+    .socials a:hover {
+      background-color: #fff;
+      color: #333;
+    }
+  
+    .footer-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+  
+    .footer-menu ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* Align items vertically in the middle */
+      margin: 20px 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    .footer-menu ul li {
+      margin: 15px;
+      /* Add space between menu items */
+    }
+  
+    .footer-menu ul li a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+  
+    .footer-menu ul li a:hover {
+      color: #fff;
+    }
+  
+    .footer-menu-item {
+      margin: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+  <footer>
+    <div class="footer-content">
+      <h3 id="head-main-heading">ClassPro</h3>
+      <p id="head-main-paragraph">
+        ClassPro is a platform that helps students to learn and improve their skills.
+      </p>
+      <ul class="socials" id="head-socials">
+        <li><a href="#" id="head-fb-link"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" id="head-twitter-link"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" id="head-googleplus-link"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#" id="head-youtube-link"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#" id="head-linkedin-link"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+      <ul class="footer-menu" id="head-menu">
+        <li><a href="#" class="footer-menu-item" id="head-home-link">Home</a></li>
+        <li><a href="#" class="footer-menu-item" id="head-about-link">About</a></li>
+        <li><a href="#" class="footer-menu-item" id="head-contact-link">Contact</a></li>
+        <li><a href="#" class="footer-menu-item" id="head-blog-link">Blog</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>

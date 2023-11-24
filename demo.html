@@ -1,0 +1,115 @@
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: cursive;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .cpc-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #9896f1;
+    color: #fff;
+  }
+
+  .cpc-nav-links a {
+    color: #fff;
+  }
+
+  .cpc-logo {
+    font-size: 32px;
+  }
+
+  .cpc-menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+
+  .cpc-menu li {
+    padding: 5px 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .cpc-menu li:hover {
+    background-color: #4ca9a9;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  .cpc-three-line {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+
+  @media (max-width: 768px) {
+    .cpc-menu {
+      display: none;
+      position: absolute;
+      background-color: #9896f1;
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 16px 0;
+    }
+
+    .cpc-menu li:hover {
+      display: inline-block;
+      background-color: #4ca9a9;
+      transition: background-color 0.3s ease;
+    }
+
+    .cpc-menu li+cpc-li {
+      margin-top: 12px;
+    }
+
+    input[type="checkbox"]:checked~.cpc-menu {
+      display: block;
+    }
+
+    .cpc-three-line {
+      display: block;
+    }
+
+    .cpc-dropdown {
+      left: 50%;
+      top: 30px;
+      transform: translateX(-50%);
+    }
+
+    .cpc-dropdown li:hover {
+      background-color: #8ef6e4;
+    }
+  }
+</style>
+<header>
+  <nav class="cpc-navbar">
+    <div class="cpc-logo">ClassPro</div>
+    <ul class="cpc-nav-links">
+      <input type="checkbox" id="cpc-checkbox_toggle">
+      <label for="cpc-checkbox_toggle" class="cpc-three-line">&#9776;</label>
+      <div class="cpc-menu">
+        <li><a href="../users/index.html">Home</a></li>
+        <li><a href="/users/pages/aboutus/about.html">About Us</a></li>
+      </div>
+    </ul>
+  </nav>
+</header>

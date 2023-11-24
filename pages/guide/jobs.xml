@@ -1,0 +1,1749 @@
+<jobs>
+    <job>
+        <title>Software Developer</title>
+        <degree>Computer Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Get a Degree</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Marketing Specialist</title>
+        <degree>Marketing</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Get a Degree</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Graphic Designer</title>
+        <degree>Graphic Design</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Get a Degree</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Data Scientist</title>
+        <degree>Data Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Get a Degree</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Software Developer</title>
+        <degree>Computer Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in any stream</step>
+            <step>Join Software engineering degree</step>
+        </steps>
+    </job>
+
+    <!-- Job 2 -->
+    <job>
+        <title>Marketing Specialist</title>
+        <degree>Marketing</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Marketing</step>
+        </steps>
+    </job>
+
+    <!-- Job 3 -->
+    <job>
+        <title>Graphic Designer</title>
+        <degree>Graphic Design</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in combined mathematics or technology stream</step>
+            <step>Acquire a Bachelor's degree in Graphic Design</step>
+        </steps>
+    </job>
+
+    <!-- Job 4 -->
+    <job>
+        <title>Data Scientist</title>
+        <degree>Data Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL - Specialize in a specific area (biology, combined mathematics, technology, arts, commerce)</step>
+            <step>Earn a Bachelor's degree in Data Science</step>
+        </steps>
+    </job>
+
+    <!-- Job 5 -->
+    <job>
+        <title>Network Engineer</title>
+        <degree>Computer Networking</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Complete a Bachelor's degree in Computer Networking</step>
+        </steps>
+    </job>
+
+    <!-- Job 6 -->
+    <job>
+        <title>Financial Analyst</title>
+        <degree>Finance</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Finance</step>
+        </steps>
+    </job>
+
+    <!-- Job 7 -->
+    <job>
+        <title>UX/UI Designer</title>
+        <degree>UX/UI Design</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in UX/UI Design</step>
+        </steps>
+    </job>
+
+    <!-- Job 8 -->
+    <job>
+        <title>Environmental Scientist</title>
+        <degree>Environmental Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Environmental Science</step>
+        </steps>
+    </job>
+
+    <!-- Job 9 -->
+    <job>
+        <title>Software Tester</title>
+        <degree>Software Testing</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in any stream</step>
+            <step>Complete a Bachelor's degree in Software Testing</step>
+        </steps>
+    </job>
+
+    <!-- Job 10 -->
+    <job>
+        <title>Human Resources Manager</title>
+        <degree>Human Resources Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Human Resources Management</step>
+        </steps>
+    </job>
+
+    <!-- Job 11 -->
+    <job>
+        <title>Mobile App Developer</title>
+        <degree>Mobile App Development</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Join Mobile App Development degree</step>
+        </steps>
+    </job>
+
+    <!-- Job 12 -->
+    <job>
+        <title>Content Writer</title>
+        <degree>English Literature</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in English Literature</step>
+        </steps>
+    </job>
+
+    <!-- Job 13 -->
+    <job>
+        <title>Healthcare Administrator</title>
+        <degree>Healthcare Administration</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Healthcare Administration</step>
+        </steps>
+    </job>
+
+    <!-- Job 14 -->
+    <job>
+        <title>Game Developer</title>
+        <degree>Game Development</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Complete a Bachelor's degree in Game Development</step>
+        </steps>
+    </job>
+
+    <!-- Job 15 -->
+    <job>
+        <title>Public Relations Specialist</title>
+        <degree>Public Relations</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Public Relations</step>
+        </steps>
+    </job>
+
+    <!-- Job 16 -->
+    <job>
+        <title>Civil Engineer</title>
+        <degree>Civil Engineering</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Earn a Bachelor's degree in Civil Engineering</step>
+        </steps>
+    </job>
+
+    <!-- Job 17 -->
+    <job>
+        <title>Social Media Manager</title>
+        <degree>Communication Studies</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in Communication Studies</step>
+        </steps>
+    </job>
+
+    <!-- Job 18 -->
+    <job>
+        <title>Biomedical Scientist</title>
+        <degree>Biomedical Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Complete a Bachelor's degree in Biomedical Science</step>
+        </steps>
+    </job>
+
+    <!-- Job 19 -->
+    <job>
+        <title>IT Security Analyst</title>
+        <degree>Information Security</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Obtain a Bachelor's degree in Information Security</step>
+        </steps>
+    </job>
+
+    <!-- Job 20 -->
+    <job>
+        <title>Event Planner</title>
+        <degree>Event Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Acquire a Bachelor's degree in Event Management</step>
+        </steps>
+    </job>
+
+    <!-- Job 21 -->
+    <job>
+        <title>Artificial Intelligence Engineer</title>
+        <degree>Artificial Intelligence</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Complete a Bachelor's degree in Artificial Intelligence</step>
+        </steps>
+    </job>
+
+    <!-- Job 22 -->
+    <job>
+        <title>Financial Planner</title>
+        <degree>Finance</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Financial Planning</step>
+        </steps>
+    </job>
+
+    <!-- Job 23 -->
+    <job>
+        <title>UI/UX Developer</title>
+        <degree>Computer Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Acquire a Bachelor's degree in UI/UX Development</step>
+        </steps>
+    </job>
+
+    <!-- Job 24 -->
+    <job>
+        <title>Public Health Analyst</title>
+        <degree>Public Health</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Public Health Analysis</step>
+        </steps>
+    </job>
+
+    <!-- Job 25 -->
+    <job>
+        <title>Business Intelligence Analyst</title>
+        <degree>Business Intelligence</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Complete a Bachelor's degree in Business Intelligence</step>
+        </steps>
+    </job>
+
+    <!-- Job 26 -->
+    <job>
+        <title>Robotics Engineer</title>
+        <degree>Robotics Engineering</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Obtain a Bachelor's degree in Robotics Engineering</step>
+        </steps>
+    </job>
+
+    <!-- Job 27 -->
+    <job>
+        <title>Content Marketing Manager</title>
+        <degree>Marketing</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Acquire a Bachelor's degree in Content Marketing</step>
+        </steps>
+    </job>
+
+    <!-- Job 28 -->
+    <job>
+        <title>Machine Learning Scientist</title>
+        <degree>Machine Learning</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Complete a Bachelor's degree in Machine Learning</step>
+        </steps>
+    </job>
+
+    <!-- Job 29 -->
+    <job>
+        <title>Urban Planner</title>
+        <degree>Urban Planning</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Earn a Bachelor's degree in Urban Planning</step>
+        </steps>
+    </job>
+
+    <!-- Job 30 -->
+    <job>
+        <title>Supply Chain Analyst</title>
+        <degree>Supply Chain Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Supply Chain Management</step>
+        </steps>
+    </job>
+
+    <!-- Job 31 -->
+    <job>
+        <title>Augmented Reality Developer</title>
+        <degree>Computer Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Join Augmented Reality Development degree</step>
+        </steps>
+    </job>
+
+    <!-- Job 32 -->
+    <job>
+        <title>Forensic Scientist</title>
+        <degree>Forensic Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Complete a Bachelor's degree in Forensic Science</step>
+        </steps>
+    </job>
+
+    <!-- Job 33 -->
+    <job>
+        <title>E-commerce Manager</title>
+        <degree>E-commerce Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Acquire a Bachelor's degree in E-commerce Management</step>
+        </steps>
+    </job>
+
+    <!-- Job 34 -->
+    <job>
+        <title>Biotechnology Researcher</title>
+        <degree>Biotechnology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Biotechnology Research</step>
+        </steps>
+    </job>
+
+    <!-- Job 35 -->
+    <job>
+        <title>IT Project Manager</title>
+        <degree>Project Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Obtain a Bachelor's degree in IT Project Management</step>
+        </steps>
+    </job>
+
+    <!-- Job 36 -->
+    <job>
+        <title>International Relations Specialist</title>
+        <degree>International Relations</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in International Relations</step>
+        </steps>
+    </job>
+
+    <!-- Job 37 -->
+    <job>
+        <title>Renewable Energy Engineer</title>
+        <degree>Renewable Energy</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Join Renewable Energy Engineering degree</step>
+        </steps>
+    </job>
+
+    <!-- Job 38 -->
+    <job>
+        <title>Technical Writer</title>
+        <degree>Technical Writing</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in any stream</step>
+            <step>Acquire a Bachelor's degree in Technical Writing</step>
+        </steps>
+    </job>
+
+    <!-- Job 39 -->
+    <job>
+        <title>Behavioral Psychologist</title>
+        <degree>Psychology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Earn a Bachelor's degree in Behavioral Psychology</step>
+        </steps>
+    </job>
+
+    <!-- Job 40 -->
+    <job>
+        <title>GIS Analyst</title>
+        <degree>Geographic Information Systems</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in technology stream</step>
+            <step>Complete a Bachelor's degree in GIS Analysis</step>
+        </steps>
+    </job>
+
+    <!-- Job 41 -->
+    <job>
+        <title>Art Curator</title>
+        <degree>Art History</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Obtain a Bachelor's degree in Art History</step>
+        </steps>
+    </job>
+
+    <!-- Job 42 -->
+    <job>
+        <title>Music Composer</title>
+        <degree>Music Composition</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in Music Composition</step>
+        </steps>
+    </job>
+
+    <!-- Job 43 -->
+    <job>
+        <title>Theater Director</title>
+        <degree>Theater Arts</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in Theater Arts</step>
+        </steps>
+    </job>
+
+    <!-- Job 44 -->
+    <job>
+        <title>Fashion Designer</title>
+        <degree>Fashion Design</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Obtain a Bachelor's degree in Fashion Design</step>
+        </steps>
+    </job>
+
+    <!-- Job 45 -->
+    <job>
+        <title>Art Therapist</title>
+        <degree>Art Therapy</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Earn a Bachelor's degree in Art Therapy</step>
+        </steps>
+    </job>
+
+    <!-- Job 46 -->
+    <job>
+        <title>Film Director</title>
+        <degree>Film Production</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in Film Production</step>
+        </steps>
+    </job>
+
+    <!-- Job 47 -->
+    <job>
+        <title>Art Gallery Manager</title>
+        <degree>Arts Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in Arts Management</step>
+        </steps>
+    </job>
+
+    <!-- Job 48 -->
+    <job>
+        <title>Photographer</title>
+        <degree>Photography</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Obtain a Bachelor's degree in Photography</step>
+        </steps>
+    </job>
+
+    <!-- Job 49 -->
+    <job>
+        <title>Art Restoration Specialist</title>
+        <degree>Art Conservation</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Earn a Bachelor's degree in Art Conservation</step>
+        </steps>
+    </job>
+
+    <!-- Job 50 -->
+    <job>
+        <title>Dance Choreographer</title>
+        <degree>Dance Choreography</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in Dance Choreography</step>
+        </steps>
+    </job>
+
+    <!-- Job 51 -->
+    <job>
+        <title>Interior Designer</title>
+        <degree>Interior Design</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Obtain a Bachelor's degree in Interior Design</step>
+        </steps>
+    </job>
+
+    <!-- Job 52 -->
+    <job>
+        <title>Music Producer</title>
+        <degree>Music Production</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in Music Production</step>
+        </steps>
+    </job>
+
+    <!-- Job 53 -->
+    <job>
+        <title>Event Designer</title>
+        <degree>Event Design and Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in Event Design and Management</step>
+        </steps>
+    </job>
+
+    <!-- Job 54 -->
+    <job>
+        <title>Art Education Coordinator</title>
+        <degree>Art Education</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Earn a Bachelor's degree in Art Education</step>
+        </steps>
+    </job>
+
+    <!-- Job 55 -->
+    <job>
+        <title>Visual Merchandiser</title>
+        <degree>Visual Merchandising</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Obtain a Bachelor's degree in Visual Merchandising</step>
+        </steps>
+    </job>
+
+    <!-- Job 56 -->
+    <job>
+        <title>Art Critic</title>
+        <degree>Art History</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in Art History</step>
+        </steps>
+    </job>
+
+    <!-- Job 57 -->
+    <job>
+        <title>Set Designer</title>
+        <degree>Theater Arts</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in Theater Arts</step>
+        </steps>
+    </job>
+
+    <!-- Job 58 -->
+    <job>
+        <title>Illustrator</title>
+        <degree>Illustration</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Earn a Bachelor's degree in Illustration</step>
+        </steps>
+    </job>
+
+    <!-- Job 59 -->
+    <job>
+        <title>Museum Curator</title>
+        <degree>Museum Studies</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Obtain a Bachelor's degree in Museum Studies</step>
+        </steps>
+    </job>
+
+    <!-- Job 60 -->
+    <job>
+        <title>Artistic Director</title>
+        <degree>Performing Arts</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in Performing Arts</step>
+        </steps>
+    </job>
+
+    <!-- Job 61 -->
+    <job>
+        <title>Book Cover Designer</title>
+        <degree>Graphic Design</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in Graphic Design</step>
+        </steps>
+    </job>
+
+    <!-- Job 62 -->
+    <job>
+        <title>Textile Designer</title>
+        <degree>Textile Design</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Obtain a Bachelor's degree in Textile Design</step>
+        </steps>
+    </job>
+
+    <!-- Job 63 -->
+    <job>
+        <title>Scriptwriter</title>
+        <degree>Film and Television Production</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Earn a Bachelor's degree in Film and Television Production</step>
+        </steps>
+    </job>
+
+    <!-- Job 64 -->
+    <job>
+        <title>Artistic Consultant</title>
+        <degree>Arts Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in Arts Management</step>
+        </steps>
+    </job>
+
+    <!-- Job 65 -->
+    <job>
+        <title>Cartoonist</title>
+        <degree>Cartooning</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in Cartooning</step>
+        </steps>
+    </job>
+
+    <!-- Job 66 -->
+    <job>
+        <title>Art Event Coordinator</title>
+        <degree>Event Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Obtain a Bachelor's degree in Event Management</step>
+        </steps>
+    </job>
+
+    <!-- Job 67 -->
+    <job>
+        <title>Gallery Assistant</title>
+        <degree>Art History</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Earn a Bachelor's degree in Art History</step>
+        </steps>
+    </job>
+
+    <!-- Job 68 -->
+    <job>
+        <title>Street Artist</title>
+        <degree>Street Art</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in Street Art</step>
+        </steps>
+    </job>
+
+    <!-- Job 69 -->
+    <job>
+        <title>Sound Designer</title>
+        <degree>Sound Design</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in Sound Design</step>
+        </steps>
+    </job>
+
+    <!-- Job 70 -->
+    <job>
+        <title>Exhibition Planner</title>
+        <degree>Event Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Obtain a Bachelor's degree in Event Management</step>
+        </steps>
+    </job>
+
+    <!-- Job 71 -->
+    <job>
+        <title>Storyboard Artist</title>
+        <degree>Animation</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Earn a Bachelor's degree in Animation</step>
+        </steps>
+    </job>
+
+    <!-- Job 72 -->
+    <job>
+        <title>Gallery Owner</title>
+        <degree>Arts Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in Arts Management</step>
+        </steps>
+    </job>
+
+    <!-- Job 73 -->
+    <job>
+        <title>Digital Artist</title>
+        <degree>Digital Arts</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in Digital Arts</step>
+        </steps>
+    </job>
+
+    <!-- Job 74 -->
+    <job>
+        <title>Art Auctioneer</title>
+        <degree>Art History</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Obtain a Bachelor's degree in Art History</step>
+        </steps>
+    </job>
+
+    <!-- Job 75 -->
+    <job>
+        <title>Graphic Novelist</title>
+        <degree>Graphic Novel Creation</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Earn a Bachelor's degree in Graphic Novel Creation</step>
+        </steps>
+    </job>
+
+    <!-- Job 76 -->
+    <job>
+        <title>Art Book Publisher</title>
+        <degree>Publishing</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in Publishing</step>
+        </steps>
+    </job>
+
+    <!-- Job 77 -->
+    <job>
+        <title>Colorist</title>
+        <degree>Color Theory</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Acquire a Bachelor's degree in Color Theory</step>
+        </steps>
+    </job>
+
+    <!-- Job 78 -->
+    <job>
+        <title>Artificial Intelligence Artist</title>
+        <degree>Artificial Intelligence in Art</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Obtain a Bachelor's degree in Artificial Intelligence in Art</step>
+        </steps>
+    </job>
+
+    <!-- Job 79 -->
+    <job>
+        <title>Creative Director</title>
+        <degree>Creative Arts</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Complete a Bachelor's degree in Creative Arts</step>
+        </steps>
+    </job>
+
+    <!-- Job 80 -->
+    <job>
+        <title>Video Game Animator</title>
+        <degree>Game Design</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in arts stream</step>
+            <step>Earn a Bachelor's degree in Game Design</step>
+        </steps>
+    </job>
+    <job>
+        <title>Mathematician</title>
+        <degree>Mathematics</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Obtain a Bachelor's degree in Mathematics</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Statistician</title>
+        <degree>Statistics</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Earn a Bachelor's degree in Statistics</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Actuary</title>
+        <degree>Actuarial Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Complete a Bachelor's degree in Actuarial Science</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Quantitative Analyst</title>
+        <degree>Quantitative Finance</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Obtain a Bachelor's degree in Quantitative Finance</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Cryptographer</title>
+        <degree>Cryptography</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Earn a Bachelor's degree in Cryptography</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Data Analyst</title>
+        <degree>Data Analytics</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Complete a Bachelor's degree in Data Analytics</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Operations Research Analyst</title>
+        <degree>Operations Research</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Acquire a Bachelor's degree in Operations Research</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Mathematics Educator</title>
+        <degree>Mathematics Education</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Obtain a Bachelor's degree in Mathematics Education</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Financial Analyst</title>
+        <degree>Financial Mathematics</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Earn a Bachelor's degree in Financial Mathematics</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Biostatistician</title>
+        <degree>Biostatistics</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Complete a Bachelor's degree in Biostatistics</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Market Research Analyst</title>
+        <degree>Market Research</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Obtain a Bachelor's degree in Market Research</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Mathematical Modeler</title>
+        <degree>Mathematical Modeling</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Acquire a Bachelor's degree in Mathematical Modeling</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Quality Assurance Analyst</title>
+        <degree>Quality Assurance</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Complete a Bachelor's degree in Quality Assurance</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Software Engineer (Specializing in Algorithms)</title>
+        <degree>Computer Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Join Software Engineering degree with a focus on algorithms</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Risk Analyst</title>
+        <degree>Risk Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Obtain a Bachelor's degree in Risk Management</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Econometrician</title>
+        <degree>Econometrics</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Earn a Bachelor's degree in Econometrics</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Algorithmic Trader</title>
+        <degree>Algorithmic Trading</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Complete a Bachelor's degree in Algorithmic Trading</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Mathematical Illustrator</title>
+        <degree>Mathematical Illustration</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Acquire a Bachelor's degree in Mathematical Illustration</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Database Administrator</title>
+        <degree>Database Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Obtain a Bachelor's degree in Database Management</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Applied Mathematician</title>
+        <degree>Applied Mathematics</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Complete a Bachelor's degree in Applied Mathematics</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Mathematics Content Developer</title>
+        <degree>Mathematics Education</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Join Mathematics Education degree with a focus on content development</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>GIS Specialist</title>
+        <degree>Geographic Information Systems</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Acquire a Bachelor's degree in Geographic Information Systems</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Mathematics Researcher</title>
+        <degree>Mathematics Research</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Earn a Bachelor's degree in Mathematics Research</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Algorithm Developer</title>
+        <degree>Algorithm Development</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Complete a Bachelor's degree in Algorithm Development</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Mathematics Editor</title>
+        <degree>Mathematics Editing</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Obtain a Bachelor's degree in Mathematics Editing</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Market Strategist</title>
+        <degree>Financial Mathematics</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Earn a Bachelor's degree in Financial Mathematics</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Mathematics Software Developer</title>
+        <degree>Mathematics Software Development</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Complete a Bachelor's degree in Mathematics Software Development</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Risk Modeler</title>
+        <degree>Risk Modeling</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Join Risk Modeling degree program</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Mathematics Tutor</title>
+        <degree>Mathematics Education</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL (Advanced Level) - Specialize in a specific area</step>
+            <step>Acquire a Bachelor's degree in Mathematics Education</step>
+        </steps>
+    </job>
+    <job>
+        <title>Biomedical Researcher</title>
+        <degree>Biomedical Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Obtain a Bachelor's degree in Biomedical Science</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Genetic Counselor</title>
+        <degree>Genetics Counseling</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Genetics Counseling</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Wildlife Biologist</title>
+        <degree>Wildlife Biology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Acquire a Bachelor's degree in Wildlife Biology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Pharmacist</title>
+        <degree>Pharmacy</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Complete a Bachelor's degree in Pharmacy</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Microbiologist</title>
+        <degree>Microbiology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Obtain a Bachelor's degree in Microbiology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Physical Therapist</title>
+        <degree>Physical Therapy</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Physical Therapy</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Environmental Biologist</title>
+        <degree>Environmental Biology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Acquire a Bachelor's degree in Environmental Biology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Cardiologist</title>
+        <degree>Cardiology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Complete a Bachelor's degree in Cardiology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Botanist</title>
+        <degree>Botany</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Obtain a Bachelor's degree in Botany</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Neuroscientist</title>
+        <degree>Neuroscience</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Neuroscience</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Immunologist</title>
+        <degree>Immunology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Acquire a Bachelor's degree in Immunology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Ecologist</title>
+        <degree>Ecology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Complete a Bachelor's degree in Ecology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Biostatistician</title>
+        <degree>Biostatistics</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Obtain a Bachelor's degree in Biostatistics</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Genetic Engineer</title>
+        <degree>Genetic Engineering</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Genetic Engineering</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Marine Biologist</title>
+        <degree>Marine Biology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Acquire a Bachelor's degree in Marine Biology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Genomic Scientist</title>
+        <degree>Genomics</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Complete a Bachelor's degree in Genomics</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Zoologist</title>
+        <degree>Zoology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Obtain a Bachelor's degree in Zoology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Medical Illustrator</title>
+        <degree>Medical Illustration</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Medical Illustration</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Biological Technician</title>
+        <degree>Biological Technology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Acquire a Bachelor's degree in Biological Technology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Plant Geneticist</title>
+        <degree>Plant Genetics</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Complete a Bachelor's degree in Plant Genetics</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Clinical Researcher</title>
+        <degree>Clinical Research</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Obtain a Bachelor's degree in Clinical Research</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Herpetologist</title>
+        <degree>Herpetology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Herpetology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Biological Illustrator</title>
+        <degree>Biological Illustration</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Acquire a Bachelor's degree in Biological Illustration</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Immunohematologist</title>
+        <degree>Immunohematology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Complete a Bachelor's degree in Immunohematology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Biological Conservationist</title>
+        <degree>Biological Conservation</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Obtain a Bachelor's degree in Biological Conservation</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Mycologist</title>
+        <degree>Mycology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Mycology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Biomedical Engineer</title>
+        <degree>Biomedical Engineering</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Acquire a Bachelor's degree in Biomedical Engineering</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Parasitologist</title>
+        <degree>Parasitology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Complete a Bachelor's degree in Parasitology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Biological Photographer</title>
+        <degree>Biological Photography</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Obtain a Bachelor's degree in Biological Photography</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Regulatory Affairs Specialist</title>
+        <degree>Regulatory Affairs</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Earn a Bachelor's degree in Regulatory Affairs</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Biological Data Analyst</title>
+        <degree>Biological Data Analysis</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Acquire a Bachelor's degree in Biological Data Analysis</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Pharmacologist</title>
+        <degree>Pharmacology</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in biology stream</step>
+            <step>Complete a Bachelor's degree in Pharmacology</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Accountant</title>
+        <degree>Accounting</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Accounting</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Financial Analyst</title>
+        <degree>Finance</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Complete a Bachelor's degree in Finance</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Marketing Specialist</title>
+        <degree>Marketing</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Marketing</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Human Resources Manager</title>
+        <degree>Human Resources Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Human Resources Management</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>E-commerce Manager</title>
+        <degree>E-commerce Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Acquire a Bachelor's degree in E-commerce Management</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Business Development Manager</title>
+        <degree>Business Administration</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Complete a Bachelor's degree in Business Administration</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Supply Chain Analyst</title>
+        <degree>Supply Chain Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Supply Chain Management</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Financial Planner</title>
+        <degree>Financial Planning</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Complete a Bachelor's degree in Financial Planning</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>International Business Consultant</title>
+        <degree>International Business</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Acquire a Bachelor's degree in International Business</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Risk Analyst</title>
+        <degree>Risk Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Earn a Bachelor's degree in Risk Management</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Actuary</title>
+        <degree>Actuarial Science</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Actuarial Science</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Digital Marketing Manager</title>
+        <degree>Digital Marketing</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Complete a Bachelor's degree in Digital Marketing</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Investment Analyst</title>
+        <degree>Investment Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Acquire a Bachelor's degree in Investment Management</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Management Consultant</title>
+        <degree>Management Consulting</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Management Consulting</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Real Estate Agent</title>
+        <degree>Real Estate</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Earn a Bachelor's degree in Real Estate</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Customer Relationship Manager</title>
+        <degree>Customer Relationship Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Complete a Bachelor's degree in Customer Relationship Management</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Business Intelligence Analyst</title>
+        <degree>Business Intelligence</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Business Intelligence</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Market Research Analyst</title>
+        <degree>Market Research</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Acquire a Bachelor's degree in Market Research</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Business Journalist</title>
+        <degree>Journalism</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Complete a Bachelor's degree in Journalism</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Corporate Trainer</title>
+        <degree>Training and Development</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Obtain a Bachelor's degree in Training and Development</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Social Media Manager</title>
+        <degree>Communication Studies</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Acquire a Bachelor's degree in Communication Studies</step>
+        </steps>
+    </job>
+
+    <job>
+        <title>Event Planner</title>
+        <degree>Event Management</degree>
+        <steps>
+            <step>Do OL (Ordinary Level) - Gain basic skills</step>
+            <step>Do AL in commerce stream</step>
+            <step>Complete a Bachelor's degree in Event Management</step>
+        </steps>
+    </job>
+
+</jobs>

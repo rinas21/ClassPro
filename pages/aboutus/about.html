@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: cursive;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #9896f1;
+      color: #fff;
+    }
+
+    .nav-links a {
+      color: #fff;
+    }
+
+    .logo {
+      font-size: 32px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 1em;
+      font-size: 18px;
+    }
+
+    .menu li {
+      padding: 5px 14px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .menu li:hover {
+      background-color: #4ca9a9;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    .three-line {
+      display: none;
+      font-size: 24px;
+      user-select: none;
+    }
+
+    @media (max-width: 768px) {
+      .menu {
+        display: none;
+        position: absolute;
+        background-color: #9896f1;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+      }
+
+      .menu li:hover {
+        display: inline-block;
+        background-color: #4ca9a9;
+        transition: background-color 0.3s ease;
+      }
+
+      .menu li+li {
+        margin-top: 12px;
+      }
+
+      input[type="checkbox"]:checked~.menu {
+        display: block;
+      }
+
+      .three-line {
+        display: block;
+      }
+
+      .dropdown {
+        left: 50%;
+        top: 30px;
+        transform: translateX(-50%);
+      }
+
+      .dropdown li:hover {
+        background-color: #8ef6e4;
+      }
+    }
+  </style>
+  <header>
+    <nav class="navbar">
+      <div class="logo">ClassPro</div>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle">
+        <label for="checkbox_toggle" class="three-line">&#9776;</label>
+        <div class="menu">
+          <li><a href="/users/index.html">Home</a></li>
+          <li><a href="/users/pages/aboutus/about.html">About Us</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <div class="card-container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="cover item-c">
+              <h1>Vihan</h1>
+              <span class="price">Leader</span>
+              <div class="card-back">
+                <a href="#">Student</a>
+                <a href="#">S   92068813@ousl.lk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="cover item-a">
+              <h1>A.M.Rinas</h1>
+              <span class="price">Member</span>
+              <div class="card-back">
+                <a href="#">Student</a>
+                <a href="#">S92064902@ousl.lk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="cover item-b">
+              <h1>Shalani</h1>
+              <span class="price">Member</span>
+              <div class="card-back">
+                <a href="#">Student</a>
+                <a href="#">S20002674@ousl.lk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="cover item-d">
+              <h1>Hasaranga</h1>
+              <span class="price">Member</span>
+              <div class="card-back">
+                <a href="#">Student</a>
+                <a href="#">S92070476@ousl.lk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <style>
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+
+    .footer-content {
+      padding: 0 20px;
+    }
+
+    .footer-content h3 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .footer-content p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .socials {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .socials li {
+      margin: 0 10px;
+    }
+
+    .socials a {
+      text-decoration: none;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 8px;
+      border-radius: 50%;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .socials a i {
+      font-size: 20px;
+      width: 20px;
+    }
+
+    .socials a:hover {
+      background-color: #fff;
+      color: #333;
+    }
+
+    .footer-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    .footer-menu ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* Align items vertically in the middle */
+      margin: 20px 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .footer-menu ul li {
+      margin: 15px;
+      /* Add space between menu items */
+    }
+
+    .footer-menu ul li a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer-menu ul li a:hover {
+      color: #fff;
+    }
+
+    .footer-menu-item {
+      margin: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+  <footer>
+    <div class="footer-content">
+      <h3>ClassPro</h3>
+      <p>
+        ClassPro is a platform that helps students to learn and improve their skills.
+      </p>
+      <ul class="socials">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+      <ul class="footer-menu">
+        <li><a href="#" class="footer-menu-item">Home</a></li>
+        <li><a href="#" class="footer-menu-item">About</a></li>
+        <li><a href="#" class="footer-menu-item">Contact</a></li>
+        <li><a href="#" class="footer-menu-item">Blog</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

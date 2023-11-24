@@ -1,0 +1,181 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.cpc-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cpc-card {
+  width: calc(33.33% - 40px);
+  color: #000000;
+  margin: 20px 0;
+  height: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-weight: bolder;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.cpc-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.cpc-card-content {
+  padding: 30px;
+  height: 200px;
+  padding: 10px;
+  /* Increased height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cpc-card-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.cpc-count-container {
+  padding: 20px;
+  background-color: #2980b9;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.cpc-count {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.cpc-count-animation {
+  animation: countAnimation 1.5s ease-out;
+}
+
+@keyframes countAnimation {
+  from {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.cpc-count-container:hover {
+  background-color: #2573a6;
+}
+
+.cpc-page-content {
+  margin-top: 30px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.cpc-benefits {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.cpc-benefits-item {
+  margin-bottom: 10px;
+}
+
+.cpc-buttons {
+  margin-top: 30px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2573a6;
+}
+
+@media (max-width: 600px) {
+  .cpc-container {
+    margin: 20px auto;
+    padding: 10px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cpc-card {
+    width: 100%;
+  }
+
+  .cpc-card-title {
+    font-size: 10px;
+  }
+
+  .cpc-count-container {
+    padding: 15px;
+  }
+
+  .cpc-count {
+    font-size: 36px;
+  }
+
+  .cpc-page-content {
+    font-size: 16px;
+  }
+
+  .cpc-benefits {
+    font-size: 14px;
+  }
+
+  .cpc-buttons {
+    margin-top: 20px;
+  }
+
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+}
+
+#chart-container {
+  width: 50%;
+  /* Adjust the width as needed */
+  margin: 20px auto;
+  /* Center the chart */
+}
+
+/* Customize font size */
+.chartjs-title {
+  font-size: 14px;
+  /* Adjust the font size as needed */
+}

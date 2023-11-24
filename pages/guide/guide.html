@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+
+    .footer-content {
+      padding: 0 20px;
+    }
+
+    .footer-content h3 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .footer-content p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .socials {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .socials li {
+      margin: 0 10px;
+    }
+
+    .socials a {
+      text-decoration: none;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 8px;
+      border-radius: 50%;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .socials a i {
+      font-size: 20px;
+      width: 20px;
+    }
+
+    .socials a:hover {
+      background-color: #fff;
+      color: #333;
+    }
+
+    .footer-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    .footer-menu ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .footer-menu ul li {
+      margin: 15px;
+    }
+
+    .footer-menu ul li a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer-menu ul li a:hover {
+      color: #fff;
+    }
+
+    .footer-menu-item {
+      margin: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+        .content {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card {
+      width: 200px;
+      height: 150px;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+
+    #jobInfoBox {
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 8px;
+      width: 500px;
+      box-sizing: border-box;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: linear-gradient(to bottom right, #3498db, #5dade2, #9b59b6, #e74c3c, #f39c12, #2ecc71);
+      color: #000000;
+      z-index: 1002;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      display: none;
+    }
+
+    .stepCard {
+      width: 90%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      margin-top: 10px;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    #closeButton {
+      width: 20%;
+      margin-top: 10px;
+      cursor: pointer;
+      background-color: #3498db;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: cursive;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #9896f1;
+    color: #fff;
+  }
+
+  .nav-links a {
+    color: #fff;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+
+  .menu li {
+    padding: 5px 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .menu li:hover {
+    background-color: #4ca9a9;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  .three-line {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      position: absolute;
+      background-color: #9896f1;
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 16px 0;
+    }
+
+    .menu li:hover {
+      display: inline-block;
+      background-color: #4ca9a9;
+      transition: background-color 0.3s ease;
+    }
+
+    .menu li+li {
+      margin-top: 12px;
+    }
+
+    input[type="checkbox"]:checked~.menu {
+      display: block;
+    }
+
+    .three-line {
+      display: block;
+    }
+  }
+</style>
+<header>
+  <nav class="navbar">
+    <div class="logo">ClassPro</div>
+    <ul class="nav-links">
+      <input type="checkbox" id="checkbox_toggle">
+      <label for="checkbox_toggle" class="three-line">&#9776;</label>
+      <div class="menu">
+        <li><a href="/users/login/dashboard.php">Home</a></li>
+        <li><a href="/users/pages/aboutus/about2.html">About Us</a></li>
+      </div>
+    </ul>
+  </nav>
+</header>
+<style> 
+/* Add your styles for the button */
+#cps-button {
+  margin: 20px 10px -10px 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1af121;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+}
+
+#cps-button:hover {
+    background-color: #7bfa82;
+}
+</style>
+<button id="cps-button">Shuffle the cards</button>
+<script>
+  // Add event listener to the button
+    document.getElementById('cps-button').addEventListener('click', function () {
+      // Reload the page
+      location.reload();
+    });
+
+</script>
+
+  <div class="content">
+    <div id="jobInfoBox"></div>
+
+  <script>
+    function loadXMLDoc(filename) {
+      if (window.XMLHttpRequest) {
+        var xhttp = new XMLHttpRequest();
+      } else {
+        var xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+      }
+      xhttp.open("GET", filename, false);
+      xhttp.send();
+      return xhttp.responseXML;
+    }
+
+    function showJobInfo(title, degree, steps, card) {
+      var jobInfoBox = document.getElementById("jobInfoBox");
+      var stepsHTML = steps.map(step => `<div class="stepCard">${step}</div>`).join('');
+
+      jobInfoBox.innerHTML = `
+                  <h2>${title}</h2>
+                  <p>Degree: ${degree}</p>
+                  <div id="path">${stepsHTML}</div>
+                  <div id="closeButton" onclick="closeJobInfo()">Close</div>
+              `;
+      jobInfoBox.style.display = "block";
+
+      card.openCards.push(jobInfoBox);
+    }
+
+    function closeJobInfo() {
+      var jobInfoBox = document.getElementById("jobInfoBox");
+      jobInfoBox.style.display = "none";
+    }
+
+    var xmlDoc = loadXMLDoc('jobs.xml');
+    var jobs = xmlDoc.getElementsByTagName('job');
+
+    var openCards = [];
+
+    for (var i = 0; i < 1000; i++) {
+      var job = jobs[i % jobs.length];
+      var title = job.getElementsByTagName('title')[0].childNodes[0].nodeValue;
+      var degree = job.getElementsByTagName('degree')[0].childNodes[0].nodeValue;
+      var steps = Array.from(job.getElementsByTagName('step')).map(step => step.childNodes[0].nodeValue);
+
+      var card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = title;
+      card.style.backgroundColor = getRandomColor();
+      setRandomPosition(card);
+
+      card.openCards = [];
+
+      card.onclick = function (title, degree, steps, card) {
+        return function () {
+          if (card.openCards.length >= 3) {
+            var oldestCard = card.openCards.shift();
+            oldestCard.style.display = "none";
+          }
+
+          showJobInfo(title, degree, steps, card);
+        }
+      }(title, degree, steps, card);
+
+      document.querySelector('.content').appendChild(card);
+    }
+
+    function getRandomColor() {
+      var letters = '0123456789ABCDEF';
+      var color = '#';
+      for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+
+    function setRandomPosition(card) {
+      var maxX = window.innerWidth - 200;
+      var maxY = window.innerHeight - 150;
+      var randomX = Math.floor(Math.random() * maxX);
+      var randomY = Math.floor(Math.random() * maxY);
+      card.style.left = randomX + 'px';
+      card.style.top = randomY + 'px';
+    }
+  </script>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <h3>ClassPro</h3>
+      <p>
+        ClassPro is a platform that helps students to learn and improve their skills.
+      </p>
+      <ul class="socials">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+      <ul class="footer-menu">
+        <li><a href="#" class="footer-menu-item">Home</a></li>
+        <li><a href="#" class="footer-menu-item">About</a></li>
+        <li><a href="#" class="footer-menu-item">Contact</a></li>
+        <li><a href="#" class="footer-menu-item">Blog</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>

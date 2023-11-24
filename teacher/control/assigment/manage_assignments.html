@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Assignments</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h1>Assignment Management</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Assignment ID</th>
+        <th>Assignment Name</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="assignmentTableBody">
+      <!-- Assignments will be displayed here -->
+    </tbody>
+  </table>
+
+  <br>
+
+  <form id="assignmentForm">
+    <label for="assignmentName">Assignment Name:</label>
+    <input type="text" id="assignmentName" name="assignmentName" required>
+    <button type="button" onclick="addAssignment()">Add Assignment</button>
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="manage_assignments.js"></script>
+
+</body>
+
+</html>

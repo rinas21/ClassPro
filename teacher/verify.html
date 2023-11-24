@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #2980b9, #6dd5fa, #ff5fff);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h2 {
+      text-align: center;
+      color: #000;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      position: relative;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fff;
+      color: #333;
+    }
+
+    input[type="submit"] {
+      background-color: #3498db;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+
+    .forget-password {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .forget-password a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .forget-password a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+</head>
+
+<body>
+  <form action="login.php" method="post">
+    <h2>Login</h2>
+    <label for="username">Username:</label>
+    <input type="text" name="username" required>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" required>
+    <br>
+    <input type="submit" value="Login">
+    <div class="forget-password">
+      <a href="forgot_password.php">Forget Password?</a>
+    </div>
+  </form>
+</body>
+
+</html>
